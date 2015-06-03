@@ -25,12 +25,20 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
     <div class="container-fluid">
       <div class="launch-box">
         <h3>Thank you for signing up!</h3>
         <br>
         <br>
-        <h3>[FB share]</h3>
+        <div class="fb-share-button" data-href="http://dsparry.github.io/BirthCurrent/" data-layout="button_count"></div>
         <br>
         <br>
         <h3 style="color: white;">Know any friends or family who might be interested? Please help spread the word!</h3>
