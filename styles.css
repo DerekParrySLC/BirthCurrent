@@ -40,49 +40,35 @@ h3 {
 	float: right;
 }
 
-.email {
-	border-radius: 5px;
-	border: none;
-	color: #222;
-	padding: 2px 9px;
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  color: #fff;
+  background-color: #ae81ff;
+  border-color: #ae81ff;
+  border-top-color: #ae81ff;
+  border-right-color: #ae81ff;
+  border-bottom-color: #ae81ff;
+  border-left-color: #ae81ff;
 }
 
-.submit {
-	border-radius: 5px;
-	border: none;
-	font-weight: 100;
-	color: white;
-	background-color: #ae81ff;
-	padding: 2px 9px;	
+.photo-by {
+	color: rgba(255,255,255,0.5);
 }
 
-/*.email {
-	color: #fff;
-	background-color: rgba(0,0,0,0.5);
-	border-style: solid;
-	border-width: 2px;
-	border-color: rgba(255,255,255,0.5);
-	border-radius: 5px;
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.7);
+	font-weight: 200;
 }
 
-.submit {
-	color: white;
-	background-color: #ae81ff;
-	border: none;
-	border-radius: 5px;
-	font-weight: 100;
+a:hover {
+	color: #ae81ff;
+	text-decoration: none;
 }
 
-.
 
-.email {
-	
-}
 
-input:focus {
-  outline: -webkit-focus-ring-color auto 5px;
-  outline-color: #fff;
-  outline-style: auto;
-  outline-width: 5px;
-  border-radius: 5px;
-}*/
+
+

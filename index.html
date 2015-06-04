@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name='og:image' content='/'>
+    <meta name='og:title' content='BirthCurrent: Social News App for the BirthCommunity'>
+    <meta name='og:image' content='BirthCurrent.png'>
     <title>BirthCurrent</title>
     <link rel="icon" 
       type="image/png" 
@@ -33,13 +34,21 @@
         <h3>BirthCurrent is currently under development and will be the first social news app for all-things-birth</h3>
         <p>Launching soon. Sign up below to show your support and receive the latest updates.</p>
         <form class="form-inline" action="http://formspree.io/birthcurrent+signup@gmail.com" method="POST">
-          <input class="email form-control" type="email" name="_subject" placeholder="your@email.com">
-          <input class="submit" type="submit" value="sign up">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="your@email.com">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">sign up</button>
+            </span>
+          </div><!-- /input-group -->
+
+          <!-- <input class="form-control" type="email" name="_subject" placeholder="your@email.com">
+          <input class="submit" type="submit" value="sign up"> -->
+
           <input type="text" name="_gotcha" style="display:none" />
           <input type="hidden" name="_next" value="/share" />
         </form>
       </div><!-- /launch-box -->
-      <p>photo by <a href="http://littlelaphoto.com/" style="color: white;">Little L.A. Photography</a></p>
+      <p class="photo-by">photo by <a href="http://littlelaphoto.com/">Little L.A. Photography</a></p>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
