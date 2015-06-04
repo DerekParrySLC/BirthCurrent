@@ -43,7 +43,8 @@ h3 {
 .btn-default,
 .btn-default:hover,
 .btn-default:active,
-.btn-default:focus {
+.btn-default:focus,
+.btn-default:visited {
   color: #fff;
   background-color: #ae81ff;
   border-color: #ae81ff;
